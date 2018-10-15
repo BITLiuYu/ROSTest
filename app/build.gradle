@@ -19,6 +19,11 @@ android {
     }
     productFlavors {
     }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
 }
 
 dependencies {
@@ -29,4 +34,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+
+    compile 'org.ros.android_core:android_10:[0.3,0.4)'
 }
