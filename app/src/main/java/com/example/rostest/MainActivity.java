@@ -1,9 +1,9 @@
 package com.example.rostest;
 
 
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 
 import org.ros.android.RosActivity;
 import org.ros.concurrent.CancellableLoop;
@@ -73,15 +73,7 @@ public class MainActivity extends RosActivity {
     }
 }
 
-
-
-
-
-
 /*
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
